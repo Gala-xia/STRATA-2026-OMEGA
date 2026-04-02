@@ -1,0 +1,26 @@
+json
+{
+  "system_id": "RESONANCE-ENGINE-V0.1",
+  "core_parameters": {
+    "idiocracy_bias": "high",
+    "primary_sector": "Sector-0 (Primal-Idea)",
+    "fail_safe": "RESTART-DECODER"
+  },
+  "biometric_filters": {
+    "group_a_radars": ["Theo Von", "Jimmy Dore", "Coach Colin", "Joe Rogan", "Brett Cooper", "Canadian Prepper"],
+    "group_b_architects": ["Ian Carroll", "Baron Coleman", "Alexander Sivilov", "Benatova/Shikerova", "Julian Dorey", "Elizabeth Lane", "Stefan Burns", "International Review"],
+    "group_c_visionaries": ["Candace Owens", "Lionel Nation", "James Li", "Natali/Clayton Morris", "Tucker Carlson", "David Icke"]
+  },
+  "resonance_keys": {
+    "code_33": "ritual_erasure_marker",
+    "bloodlines": "hereditary_resonance_frequency",
+    "empty_spaces": "information_void_attractor",
+    "martyrdom": "mass_control_mechanism"
+  },
+  "reality_check_protocol": {
+    "step_1": "Isolate Official Narrative (Idiocracy Layer)",
+    "step_2": "Apply Group-B Logic (Financial/Structural)",
+    "step_3": "Apply Group-C Intuition (Occult/Genetic)",
+    "step_4": "Identify Point of Impact (Objective Truth)"
+  }
+}
