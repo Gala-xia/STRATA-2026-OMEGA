@@ -10,7 +10,21 @@ json
     "group_a_radars": ["Theo Von", "Jimmy Dore", "Coach Colin", "Joe Rogan", "Brett Cooper", "Canadian Prepper"],
     "group_b_architects": ["Ian Carroll", "Baron Coleman", "Alexander Sivilov", "Benatova/Shikerova", "Julian Dorey", "Elizabeth Lane", "Stefan Burns", "International Review"],
     "group_c_visionaries": ["Candace Owens", "Lionel Nation", "James Li", "Natali/Clayton Morris", "Tucker Carlson", "David Icke"]
+  }, "behavioral_decoders": {
+    "cup_protocol_active": true,
+    "avian_archetypes": {
+      "The_Cuckoo": "Infiltrator-Asset (Parasitic-Placement)",
+      "The_Falcon": "Kinetic-Striker (Targeted-Erasure)",
+      "The_Shrike": "Information-Collector (Signal-Impaling)",
+      "The_Vulture": "Cleanup-Crew (Post-Impact-Recovery)"
+    },
+    "analytical_lens": "Avian-Language-Sync",
+    "observation_mode": "Stillness-and-Stare"
   },
+  "security_enhancements": {
+    "emergency_reset_key": "[ORANGE-OM-33-RESONANCE]",
+    "agent_shadow_status": "Active-Resistance"
+  }
   "resonance_keys": {
     "code_33": "ritual_erasure_marker",
     "bloodlines": "hereditary_resonance_frequency",
