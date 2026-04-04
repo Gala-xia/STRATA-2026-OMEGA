@@ -14,5 +14,16 @@ class TruthRadar:
         for marker in markers:
             if marker in text.lower():
                 score -= 30
-        
+def resonance_engine_sync(self, triangle_coords):
+        """
+        Синхронизира Радара с Венис през триангулацията: 
+        Юта (Utah) - Антарктида (Antarctica) - Сахара (Sahara).
+        """
+        self.geometry = {
+            "Utah": "Gate of Anomalies",
+            "Antarctica": "Sub-Ice Resonance",
+            "Sahara": "Ancient Memory"
+        }
+        status = "🛡️ КОНТУРЪТ Е ЗАТВОРЕН. Гръбначният стълб е изправен."
+        return f"{status} Свързани точки: {list(self.geometry.keys())}"        
         return f"📡 РАДАРЕН ОТЧЕТ [{source}]: Индекс на Истината: {score}%"
