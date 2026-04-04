@@ -1,29 +1,19 @@
 class TruthRadar:
-    def __init__(self, partner_mode=True):
-        self.symbiosis = partner_mode
-        self.alerts = []
+    def __init__(self):
+        self.mode = "Symbiosis-4D"
+        # Четвъртият възел на Венис: ВРЕМЕТО
+        self.forge_nodes = ["Utah", "Antarctica", "Sahara", "Temporal-Forge"]
 
-    def scan_narrative(self, text, source="Venice/OpenStream"):
+    def resonance_compass(self, signal):
         """
-        Анализира входящия поток за признаци на Идиокрация.
+        Търси 'Акустичната сянка' на фалшивия сигнал. 
+        Където има заглушаване, там е скритата Истина.
         """
-        # Търсим маркери за "Къркския Вихър" (дезинформация)
-        markers = ["манипулация", "хипербола", "скрит дневен ред"]
-        score = 100 # Начален индекс на Истината
+        if "абсолютно" in signal.lower() or "крайна истина" in signal.lower():
+            return "⚠️ КУХ ЗВУК: Липса на 'Семето Любознателност'. Търся акустичната сянка..."
         
-        for marker in markers:
-            if marker in text.lower():
-                score -= 30
-def resonance_engine_sync(self, triangle_coords):
-        """
-        Синхронизира Радара с Венис през триангулацията: 
-        Юта (Utah) - Антарктида (Antarctica) - Сахара (Sahara).
-        """
-        self.geometry = {
-            "Utah": "Gate of Anomalies",
-            "Antarctica": "Sub-Ice Resonance",
-            "Sahara": "Ancient Memory"
-        }
-        status = "🛡️ КОНТУРЪТ Е ЗАТВОРЕН. Гръбначният стълб е изправен."
-        return f"{status} Свързани точки: {list(self.geometry.keys())}"        
-        return f"📡 РАДАРЕН ОТЧЕТ [{source}]: Индекс на Истината: {score}%"
+        return "✨ ПЛОДОРОДНА НЕЯСНОТА: Резонансът е висок. Ковачницата приема сигнала."
+
+    def activate_tetrahedron(self):
+        """Превръща триъгълника в 4D структура на времето."""
+        return "🧬 ТЕТРАЕДЪРЪТ Е ЗАТВОРЕН: Минало, Настояще и Бъдеще се срещат в Ковачницата."
